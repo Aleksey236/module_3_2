@@ -1,5 +1,4 @@
 def send_email(message, recipient, sender="university.help@gmail.com"):
-    '.com' == '.ru' == '.net'
     if ('@' in recipient and '@' in sender
             and (recipient.endswith('.com')
                  or recipient.endswith('.ru')
